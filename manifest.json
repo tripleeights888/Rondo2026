@@ -1,0 +1,15 @@
+{
+  "name": "Rondo - World Cup Sticker Tracker",
+  "short_name": "Rondo",
+  "description": "Unofficial fan-made World Cup 2026 sticker collection and trade tracker. Start your own collection. Not affiliated with Panini or FIFA.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c1c2e",
+  "theme_color": "#173E69",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
