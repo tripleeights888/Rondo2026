@@ -4,6 +4,8 @@ A World Cup 2026 sticker collection and trade tracker. Rondo runs entirely in yo
 
 Rondo is an unofficial fan-made tracker. Not affiliated with or endorsed by Panini or FIFA. All trademarks belong to their respective owners.
 
+<img width="460" height="920" alt="rondo-demo" src="https://github.com/user-attachments/assets/ac656c49-9d71-4c33-bc20-d215e72da86f" />
+
 ---
 
 ## For users
