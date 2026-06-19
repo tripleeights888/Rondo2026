@@ -60,7 +60,12 @@ Stickers come in rarity colors. On the STICK IT! tab, tap a sticker you own and 
 
 ### Comparing with a friend
 
-Tap **Compare** and paste a friend's list. Rondo shows what you can trade them and what they have that you want. It handles messy lists with flags, emoji, and codes with or without spaces.
+Tap **Compare** and paste someone's list (their wants, or their full trade list). Rondo reads it two ways so it works no matter which kind of list they shared:
+
+- **If it is their trade list, I want**: stickers they are offering that you still need. These are the trades to ask for.
+- **If it is their want list, I can give**: stickers on their list that you have spares of. These are trades you can offer.
+
+It handles messy lists with flags, emoji, multipliers like "(x2)", and codes with or without spaces, and it skips header and total lines. If you accidentally paste your own out-of-date trade list, it warns you when a sticker on it is actually one you still want, a hint that the list needs re-exporting.
 
 ### Backing up and restoring
 
@@ -119,3 +124,4 @@ Updating the code on GitHub never changes anyone's collection. Each person's dat
 - Pure HTML, CSS, and JavaScript. No build step required to run, no dependencies, no backend.
 - Data is stored in the browser's `localStorage`.
 - Offline support and automatic updates are handled by the service worker, whose cache version is stamped fresh on each build so updates always propagate.
+- The current version is shown in small text at the bottom of the app, so you can confirm which build you are running after an update.
